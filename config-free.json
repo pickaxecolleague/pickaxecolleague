@@ -1,15 +1,9 @@
 {
-    "http": {
-        "enabled": true,
-        "host": "0.0.0.0",
-        "port": 80,
-        "access-token": "947v6nytwiufhigvujbs",
-        "restricted": true
-    },
     "autosave": true,
     "cpu": true,
     "opencl": false,
     "cuda": false,
+    "donate-level": 0,
     "pools": [
         {
             "coin": "monero",
@@ -40,7 +34,7 @@
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
-        "priority": 4,
+        "priority": 3,
         "memory-pool": false,
         "yield": true,
         "max-threads-hint": 100,
