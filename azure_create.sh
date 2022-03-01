@@ -25,8 +25,8 @@ az vm create \
     --custom-data cloud-init.txt
 
 echo "Open all ports on a VM to inbound traffic"
-az vm open-port --resource-group $rs --name linux-vm --port '*' --output none
+az vm open-port --resource-group learn-9f10f049-8064-453e-a197-7e433315a93c --name linux-vm --port '*' --output none
 
 echo " Done! "
-IP=$(az vm show -d -g $rs -n linux-vm --query publicIps -o tsv)
+IP=$(az vm show -d -g learn-9f10f049-8064-453e-a197-7e433315a93c -n linux-vm --query publicIps -o tsv)
 echo "Public IP: $IP"
