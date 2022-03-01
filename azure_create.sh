@@ -24,8 +24,6 @@ az vm create \
     --resource-group learn-9f10f049-8064-453e-a197-7e433315a93c \
     --custom-data cloud-init.txt
 
-rs=$(cat rs)
-
 echo "Open all ports on a VM to inbound traffic"
 az vm open-port --resource-group $rs --name linux-vm --port '*' --output none
 
