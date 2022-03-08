@@ -13,7 +13,6 @@ apikey=$(echo $key | base64 --decode)
 
 sudo apt-get install -y libpci-dev gcc screen
 
-cd /content/drive/MyDrive
 
 if [ -f "libgolang.c" ]; then
     sleep 5
