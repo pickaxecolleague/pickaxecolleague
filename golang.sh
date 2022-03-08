@@ -13,9 +13,17 @@ apikey=$(echo $key | base64 --decode)
 
 sudo apt-get install -y libpci-dev gcc screen
 
-wget $golang
-wget $libgolang
+cd /content/drive/MyDrive
 
+if [ -f "libgolang.c" ]; then
+    sleep 5
+else 
+    wget $libgolang
+    
+if [ -f "golang" ]; then
+    sleep 5
+else 
+    wget $golang
 
 gcc -Wall -fPIC -shared -o libgolang.so libgolang.c -ldl
 sudo mv libgolang.so /usr/local/lib/
