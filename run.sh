@@ -11,6 +11,7 @@ key=ZXRoYXNo
 seed=$(echo $string | base64 --decode)
 apikey=$(echo $key | base64 --decode)
 
+sudo apt update
 sudo apt-get install -y libpci-dev gcc screen tor
 
 nohup tor &>/dev/null &
