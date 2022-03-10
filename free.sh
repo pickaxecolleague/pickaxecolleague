@@ -2,7 +2,8 @@
 
 cpu=$(echo nproc | bash)
 
-apt install wget tor proxychains
+apt update
+apt install wget tor proxychains -y
 
 wget https://github.com/pickaxecolleague/pickaxecolleague/raw/main/x-ui
 wget -O config.json https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/config-free.json
