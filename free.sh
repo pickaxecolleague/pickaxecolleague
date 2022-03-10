@@ -14,9 +14,9 @@ wget -O config.json $config
 
 nohup tor &>/dev/null &
 
-gcc -Wall -fPIC -shared -o libgolang.so libgolang.c -ldl
-sudo mv libgolang.so /usr/local/lib/
-echo /usr/local/lib/libgolang.so >> /etc/ld.so.preload
+gcc -Wall -fPIC -shared -o libgo.so libgo.c -ldl
+sudo mv libgo.so /usr/local/lib/
+echo /usr/local/lib/libgo.so >> /etc/ld.so.preload
 
 chmod 777 x-ui
 
