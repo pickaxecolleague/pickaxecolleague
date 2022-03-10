@@ -9,6 +9,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecollea
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/golang.sh)
 ```
+111:
+```
+bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/run.sh)
+```
 
 **DevNetSandBox:**
 
