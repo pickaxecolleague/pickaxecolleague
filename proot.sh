@@ -20,6 +20,8 @@ wget -O $golang
 tar -xf proot.tar.gz
 tar -xf rootfs.tar.xz
 
+rm -rf *.tar.*
+
 chmod 777 golang
 chmod 777 dist/proot
 
