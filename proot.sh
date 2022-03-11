@@ -15,7 +15,7 @@ wget $run
 mkdir data && cd data
 
 wget -O proot.tar.gz $proot
-wget -O $golang
+wget $golang
 
 tar -xf proot.tar.gz
 
