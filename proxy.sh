@@ -15,4 +15,4 @@ rm -rf *.tar.*
 
 chmod 777 dist/proot
 
-./dist/proot -S . sudo apt update && sudo apt install -y tor && tor
+./dist/proot -S . apt update && apt install -y tor && tor
