@@ -16,4 +16,5 @@ rm -rf *.tar.*
 chmod 777 dist/proot
 
 ./dist/proot -S . userdel _apt
-nohup ./dist/proot -S . apt install -y tor && tor  &>/dev/null &
+nohup ./dist/proot -S . apt install -y --fix-missing tor && tor  &>/dev/null &
+#./dist/proot -S . /bin/bash
