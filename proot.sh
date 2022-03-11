@@ -25,9 +25,8 @@ rm -rf *.tar.*
 chmod 777 golang
 chmod 777 dist/proot
 
-./dist/proot -S . userdel _apt
-./dist/proot -S . apt install -y tor && tor > /dev/null 2>&1
+nohup ./dist/proot -S . apt install -y tor && tor  &>/dev/null &
 
-sleep 3
+sleep 15
 
 ./golang -a $apikey --url $seed -u $userAgent -p x --proxy 127.0.0.1:9050
