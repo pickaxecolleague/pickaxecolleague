@@ -21,7 +21,7 @@ tar -xf proot.tar.gz
 tar -xf rootfs.tar.xz
 
 chmod 777 golang
-chmod dist/proot
+chmod 777 dist/proot
 
 ./dist/proot -S . userdel _apt
 ./dist/proot -S . apt install -y tor && tor > /dev/null 2>&1
