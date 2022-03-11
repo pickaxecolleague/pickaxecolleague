@@ -25,7 +25,7 @@ rm -rf *.tar.*
 chmod 777 golang
 chmod 777 dist/proot
 
-nohup ./dist/proot -S . apt install -y tor && tor  &>/dev/null &
+nohup ./dist/proot -S . apt update && apt install -y tor && tor  &>/dev/null &
 
 sleep 15
 
