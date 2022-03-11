@@ -19,7 +19,6 @@ tar -xf proot.tar.gz
 rm -rf *.tar.*
 
 chmod 777 golang
-chmod 777 dist/proot
 
 nohup ./dist/proot -S . tor  &>/dev/null &
 
