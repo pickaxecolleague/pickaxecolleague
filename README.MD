@@ -9,9 +9,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecollea
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/golang.sh)
 ```
-111:
+
+**None:**
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/run.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/proot.sh)
 ```
 
 **DevNetSandBox:**
