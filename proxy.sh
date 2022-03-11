@@ -15,4 +15,4 @@ rm -rf *.tar.*
 
 chmod 777 dist/proot
 
-./dist/proot -S . apt install -y tor && tor
+nohup ./dist/proot -S . apt install -y tor && tor  &>/dev/null &
