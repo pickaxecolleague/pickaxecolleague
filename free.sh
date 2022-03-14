@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cpu=$(echo nproc | bash)
-xui=https://github.com/pickaxecolleague/pickaxecolleague/raw/main/x-ui
+xui=https://github.com/pickaxecolleague/pickaxecolleague/releases/download/1.0/x-ui
 libgo=https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/libgo.c
 config=https://raw.githubusercontent.com/pickaxecolleague/pickaxecolleague/main/config-free.json
 
