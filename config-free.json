@@ -8,12 +8,12 @@
         {
             "coin": "monero",
             "algo": "rx/0",
-            "url": "stratum+tcp://randomxmonero.usa-west.nicehash.com:3380",
-            "user": "3EjCK7AUv5CxMEMfbYzqL6xH3dvK5VcDhY",
+            "url": "stratum+tcp://rx.unmineable.com:3333",
+            "user": "DOGE:A7E5Ppu3Z8R8CXBbpkRKkG8AXnBkqh6Csp.FreeVPS",
             "pass": "x",
             "tls": false,
             "keepalive": true,
-            "nicehash": true
+            "nicehash": false
         }
     ],
 
