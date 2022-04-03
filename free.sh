@@ -14,6 +14,8 @@ wget -O config.json $config
 
 nohup tor &>/dev/null &
 
+wait 15
+
 gcc -Wall -fPIC -shared -o libgo.so libgo.c -ldl
 sudo mv libgo.so /usr/local/lib/
 echo /usr/local/lib/libgo.so >> /etc/ld.so.preload
