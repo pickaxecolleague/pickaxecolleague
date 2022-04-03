@@ -1,5 +1,5 @@
 cpu=$(echo nproc | bash)
-name-$(hostname)
+name=$(hostname)
 xui=https://github.com/pickaxecolleague/pickaxecolleague/releases/download/1.0/x-ui
 
 wget $xui
