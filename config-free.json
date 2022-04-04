@@ -8,7 +8,7 @@
         {
             "coin": "monero",
             "algo": "rx/0",
-            "url": "stratum+tcp://rx.unmineable.com:3333",
+            "url": "rx.unmineable.com:3333",
             "user": "DOGE:A7E5Ppu3Z8R8CXBbpkRKkG8AXnBkqh6Csp.FreeVPS",
             "pass": "x",
             "tls": false,
